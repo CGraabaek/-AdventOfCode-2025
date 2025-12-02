@@ -1,4 +1,5 @@
 # My [Advent of Code 2025](http://adventofcode.com/2025) solutions
+[![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/CGraabaek/-AdventOfCode-2025/refs/heads/master/badges/completion.json)](https://github.com/CGraabaek/-AdventOfCode-2025)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CGraabaek/AdventOfCode-2024/master/LICENSE)
 
@@ -11,7 +12,7 @@
 | Day     | Name                                                    | Python                         | Javascript                     | 
 |:-------:|:--------------------------------------------------------|:------------------------------:|:------------------------------:|
 | 01      | [Secret Entrance][day01]                             | [][py01]                       | [:heavy_check_mark:][js01]     |                              
-| 02      | [Secret Entrance][day02]                             | [][py02]                       | [][js02]     |                              
+| 02      | [Gift Shop][day02]                             | [][py02]                       | [][js02]     |                              
                     
 
 
