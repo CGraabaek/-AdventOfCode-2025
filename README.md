@@ -1,5 +1,5 @@
-# My [Advent of Code 2024](http://adventofcode.com/2025) solutions
-[![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/CGraabaek/AdventOfCode-2024/master/badges/completion.json)](https://github.com/mariotacke/advent-of-code-2024)
+# My [Advent of Code 2025](http://adventofcode.com/2025) solutions
+
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CGraabaek/AdventOfCode-2024/master/LICENSE)
 
 
@@ -65,3 +65,5 @@
 - [![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/CGraabaek/AdventOfCode-2018/master/badges/completion.json&label=2018)](https://github.com/CGraabaek/AdventOfCode-2018)
 - [![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/CGraabaek/AdventOfCode-2019/master/badges/completion.json&label=2019)](https://github.com/CGraabaek/AdventOfCode-2019)
 - [![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/CGraabaek/AdventOfCode-2020/master/badges/completion.json&label=2020)](https://github.com/CGraabaek/AdventOfCode-2020)
+- [![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/CGraabaek/AdventOfCode-2024/731cd8e7fd17b381db8d42febcbb8f496e9a5003/badges/completion.json)](https://github.com/CGraabaek/AdventOfCode-2024)
+- [![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/CGraabaek/AdventOfCode-2024/731cd8e7fd17b381db8d42febcbb8f496e9a5003/badges/completion.json)](https://github.com/CGraabaek/-AdventOfCode-2025)
