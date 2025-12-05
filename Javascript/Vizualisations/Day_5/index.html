@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advent of Code 2025 - Day 5 Visualization</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #0f0f23;
+      color: #cccccc;
+      font-family: 'Source Code Pro', monospace, Consolas, Monaco, 'Courier New';
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    h1 {
+      color: #00cc00;
+      text-shadow: 0 0 5px #00cc00;
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      color: #ffff66;
+      margin-top: 0;
+    }
+    
+    #canvas-container {
+      border: 2px solid #333;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    
+    .controls {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+    }
+    
+    button {
+      background-color: #1a1a2e;
+      color: #00cc00;
+      border: 1px solid #00cc00;
+      padding: 10px 20px;
+      font-family: inherit;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+    
+    button:hover {
+      background-color: #00cc00;
+      color: #0f0f23;
+    }
+    
+    button.active-test {
+      background-color: #ffff66;
+      color: #0f0f23;
+      border-color: #ffff66;
+    }
+    
+    button.active-real {
+      background-color: #ff6666;
+      color: #0f0f23;
+      border-color: #ff6666;
+    }
+    
+    .speed-indicator {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #1a1a2e;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+    
+    .speed-label {
+      color: #cccccc;
+      font-size: 14px;
+    }
+    
+    .speed-label-fast, .speed-label-slow {
+      color: #888;
+      font-size: 12px;
+    }
+    
+    .speed-bar {
+      width: 150px;
+      height: 12px;
+      background-color: #333;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    
+    .speed-fill {
+      height: 100%;
+      width: 70%;
+      background-color: #64ff64;
+      border-radius: 6px;
+      transition: width 0.2s, background-color 0.2s;
+    }
+    
+    .speed-value {
+      color: #00cc00;
+      font-size: 14px;
+      min-width: 50px;
+    }
+    
+    .info {
+      margin-top: 20px;
+      max-width: 800px;
+      text-align: center;
+      line-height: 1.6;
+    }
+    
+    .result {
+      color: #ffff66;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    
+    .star {
+      color: #ffff66;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 Advent of Code 2025 <span class="star">★</span></h1>
+  <h2>Day 5: Fresh Ingredients Check</h2>
+  
+  <div id="canvas-container"></div>
+  
+  <div class="controls">
+    <button onclick="toggleInput()" id="input-toggle">Using: TEST</button>
+    <button onclick="resetVisualization()">Reset</button>
+    <button onclick="togglePause()">Pause/Play</button>
+    <button onclick="nextStep()">Next Step</button>
+    <button onclick="skipToMerge()">Skip to Merge</button>
+    <button onclick="skipToCheck()">Skip to Check</button>
+    <button onclick="changeSpeed(-50)">Faster</button>
+    <button onclick="changeSpeed(50)">Slower</button>
+  </div>
+  
+  <div class="speed-indicator">
+    <span class="speed-label">Speed:</span>
+    <span class="speed-label-fast">Fast</span>
+    <div class="speed-bar">
+      <div class="speed-fill" id="speed-fill"></div>
+    </div>
+    <span class="speed-label-slow">Slow</span>
+    <span class="speed-value" id="speed-value">150ms</span>
+  </div>
+  
+  <div class="info">
+    <p>Visualizing freshness range checking and merging overlapping ranges.</p>
+    <div class="result" id="result"></div>
+  </div>
+  
+  <script src="sketch.js"></script>
+</body>
+</html>
