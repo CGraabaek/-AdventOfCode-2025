@@ -14,6 +14,8 @@
 | 01      | [Secret Entrance][day01]                             | [][py01]                       | [:heavy_check_mark:][js01]     |                              
 | 02      | [Gift Shop][day02]                             | [][py02]                       | [:heavy_check_mark:][js02]     |                              
 | 03      | [Lobby][day03]                             | [][py03]                       | [:heavy_check_mark:][js03]     |                              
+| 04      | [Printing Department][day04]                             | [][py04]                       | [][js04]     |                              
+| 05      | [Cafeteria][day05]                             | [][py05]                       | [:heavy_check_mark:][js05]     |                              
                     
 
 
