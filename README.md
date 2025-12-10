@@ -16,6 +16,11 @@
 | 03      | [Lobby][day03]                             | [][py03]                       | [:heavy_check_mark:][js03]     |                              
 | 04      | [Printing Department][day04]                             | [][py04]                       | [][js04]     |                              
 | 05      | [Cafeteria][day05]                             | [][py05]                       | [:heavy_check_mark:][js05]     |                              
+| 06      | [Trash Compactor][day06]                             | [][py06]                       | [:heavy_check_mark:][js06]     |                              
+| 07      | [Trash Compactor][day07]                             | [][py07]                       | [][js07]     |                              
+| 08      | [Laboratories][day08]                             | [][py08]                       | [][js08]     |                              
+| 09      | [Trash Compactor][day09]                             | [][py09]                       | [][js09]     |                              
+| 10      | [Trash Compactor][day10]                             | [][py10]                       | [][js10]     |                              
                     
 
 
@@ -53,7 +58,7 @@
 [js03]: ./Javascript/Day_3/day_3.js
 [js04]: ./Javascript/Day_4/day_4.js
 [js05]: ./Javascript/Day_5/day_5.js
-[js06]: ./Javascript/Day_6/day_6.js
+[js06]: ./Javascript/Day_6/day_6_p2.js
 [js07]: ./Javascript/Day_7/day_7.js
 [js08]: ./Javascript/Day_8/day_8.js
 [js09]: ./Javascript/Day_9/day_9.js
