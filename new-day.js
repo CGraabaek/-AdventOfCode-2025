@@ -31,7 +31,7 @@ const inputFile = useTestInput ? "./test_input.txt" : "./input.txt";
 const puzzleInput = fs.readFileSync(inputFile).toString().split("\\n");
 
 console.log(\`Using \${useTestInput ? "TEST" : "REAL"} input\`);
-
+console.log(puzzleInput);
 `;
 
 // Create files
