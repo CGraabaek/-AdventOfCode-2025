@@ -14,13 +14,14 @@
 | 01      | [Secret Entrance][day01]                             | [][py01]                       | [:heavy_check_mark:][js01]     |                              
 | 02      | [Gift Shop][day02]                             | [][py02]                       | [:heavy_check_mark:][js02]     |                              
 | 03      | [Lobby][day03]                             | [][py03]                       | [:heavy_check_mark:][js03]     |                              
-| 04      | [Printing Department][day04]                             | [][py04]                       | [][js04]     |                              
+| 04      | [Printing Department][day04]                             | [][py04]                       | [:heavy_check_mark:][js04]     |                              
 | 05      | [Cafeteria][day05]                             | [][py05]                       | [:heavy_check_mark:][js05]     |                              
 | 06      | [Trash Compactor][day06]                             | [][py06]                       | [:heavy_check_mark:][js06]     |                              
-| 07      | [Trash Compactor][day07]                             | [][py07]                       | [][js07]     |                              
-| 08      | [Laboratories][day08]                             | [][py08]                       | [][js08]     |                              
-| 09      | [Trash Compactor][day09]                             | [][py09]                       | [][js09]     |                              
-| 10      | [Trash Compactor][day10]                             | [][py10]                       | [][js10]     |                              
+| 07      | [Laboratories][day07]                             | [][py07]                       | [][js07]     |                              
+| 08      | [Playground][day08]                             | [][py08]                       | [][js08]     |                              
+| 09      | [Movie Theater][day09]                             | [][py09]                       | [][js09]     |                              
+| 10      | [Factory][day10]                             | [][py10]                       | [][js10]     |                              
+| 11      | [Reactor][day11]                             | [][py11]                       | [][js11]     |                              
                     
 
 
